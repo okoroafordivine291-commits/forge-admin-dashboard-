@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Check } from "lucide-react";
-import Card from "../components/ui/Card";
+import Card from "/Card";
 
 export default function Settings() {
   const [name, setName] = useState("Divine Osas");
