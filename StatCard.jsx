@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { LineChart, Line, ResponsiveContainer } from "recharts";
-import Card from "../ui/Card";
+import Card from "/Card";
 
 export default function StatCard({ label, value, delta, positive, sparkline }) {
   return (
