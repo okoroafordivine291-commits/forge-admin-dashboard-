@@ -3,8 +3,8 @@ import {
   AreaChart, Area, BarChart, Bar, XAxis, YAxis, Tooltip,
   ResponsiveContainer, CartesianGrid,
 } from "recharts";
-import Card from "../components/ui/Card";
-import StatCard from "../components/charts/StatCard";
+import Card from "/Card";
+import StatCard from "/StatCard";
 import { revenueData, signupsData, mockLogs } from "../data/mockData";
 
 export default function Overview() {
