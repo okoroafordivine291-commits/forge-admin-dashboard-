@@ -5,7 +5,7 @@ import {
 } from "recharts";
 import Card from "/Card";
 import StatCard from "/StatCard";
-import { revenueData, signupsData, mockLogs } from "../data/mockData";
+import { revenueData, signupsData, mockLogs } from "/mockData";
 
 export default function Overview() {
   const spark = signupsData.map((d) => ({ v: d.n }));
