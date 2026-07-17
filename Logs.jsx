@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../components/ui/Card";
-import { mockLogs } from "../data/mockData";
+import Card from "/Card";
+import { mockLogs } from "/mockData";
 
 const levelDot = { info: "bg-sky-400", warn: "bg-amber-300", error: "bg-rose-400" };
 
