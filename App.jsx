@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Layout from "./layout/Layout";
-import Overview from "./pages/Overview";
-import UsersPage from "./pages/UsersPage";
-import Billing from "./pages/Billing";
-import Logs from "./pages/Logs";
-import Settings from "./pages/Settings";
+import Layout from "./Layout";
+import Overview from "./Overview";
+import UsersPage from "./UsersPage";
+import Billing from "./Billing";
+import Logs from "./Logs";
+import Settings from "./Settings";
 
 const TITLES = {
   overview: "Overview",
