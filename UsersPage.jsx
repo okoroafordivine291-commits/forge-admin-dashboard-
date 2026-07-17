@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from "react";
 import { Search, Plus, MoreHorizontal } from "lucide-react";
-import Card from "../components/ui/Card";
-import Badge from "../components/ui/Badge";
-import DataTable from "../components/tables/DataTable";
-import { mockUsers } from "../data/mockUsers";
+import Card from "/Card";
+import Badge from "/Badge";
+import DataTable from "/DataTable";
+import { mockUsers } from "/mockUsers";
 
 export default function UsersPage() {
   const [query, setQuery] = useState("");
