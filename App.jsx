@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "./components/layout/Layout";
+import Layout from "./layout/Layout";
 import Overview from "./pages/Overview";
 import UsersPage from "./pages/UsersPage";
 import Billing from "./pages/Billing";
