@@ -1,10 +1,10 @@
 import React from "react";
 import { Filter } from "lucide-react";
-import Card from "../components/ui/Card";
-import Badge from "../components/ui/Badge";
-import StatCard from "../components/charts/StatCard";
-import DataTable from "../components/tables/DataTable";
-import { invoices } from "../data/mockData";
+import Card from "/Card";
+import Badge from "/Badge";
+import StatCard from "/StatCard";
+import DataTable from "/DataTable";
+import { invoices } from "/mockData";
 
 export default function Billing() {
   const columns = [
